@@ -1,0 +1,104 @@
+*{
+  margin:0;
+}
+
+body{
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  align-items: center;
+}
+
+header{
+  font-family: "Inter", arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: black;
+
+}
+
+h1{
+  margin: 10px 0 0 30px;
+  font-family: "Inter";
+  font-style: normal;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-template-areas:
+  "character-count character-no-spaces word-count"
+  "number-count number-sum word-length-average";
+  grid-gap:40px;
+  font-size: 16px;
+  margin: 10px auto 20px auto;
+
+}
+
+.character-count{
+  grid-area:"character-count";
+}
+
+.character-no-spaces{
+  grid-area: "character-no-spaces";
+}
+
+.word-count{
+  grid-area: "word-count";
+}
+
+.number-count{
+  grid-area: "number-count";
+}
+
+.number-sum{
+  grid-area: "number-sum";
+}
+
+.word-length-average{
+  grid-area: "word-length-average";
+}
+
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  Align-items:center;
+}
+
+textarea[name="user-input"]{
+  border-radius: 4px;
+}
+
+
+#reset-button{
+  height: 30px;
+  margin-bottom: 30px;
+  background-color: #6c4675;
+  width: 150px;
+  border-radius: 4px;
+  opacity: 1;
+  font-family: Inter;
+  font-style: normal;
+  cursor: pointer;
+  margin-top:30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#reset-button:hover{
+  opacity: 0.7;
+}
+
+footer{
+  margin: 0 auto 20px auto;
+  display: flex;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+}
