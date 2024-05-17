@@ -3,8 +3,10 @@
 }
 
 body{
-  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
-  align-items: center;
+  background-color: #C7B0D4;
+  height: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 header{
@@ -12,16 +14,14 @@ header{
   font-size: 16px;
   line-height: 20px;
   color: black;
-
 }
 
 h1{
-  margin: 10px 0 0 30px;
+  margin: 40px auto 40px auto;
   font-family: "Inter";
   font-style: normal;
-  line-height: 72px;
-  letter-spacing: -0.6px;
   text-align: center;
+  font-size: 40px;
 }
 
 ul{
@@ -32,10 +32,9 @@ ul{
   grid-template-areas:
   "character-count character-no-spaces word-count"
   "number-count number-sum word-length-average";
-  grid-gap:40px;
+  grid-gap:40px 40px;
   font-size: 16px;
   margin: 10px auto 20px auto;
-
 }
 
 .character-count{
@@ -71,18 +70,20 @@ div{
 
 textarea[name="user-input"]{
   border-radius: 4px;
+  margin: 20px auto 20px auto;
 }
 
 
 #reset-button{
-  height: 30px;
+  height: 50px;
   margin-bottom: 30px;
   background-color: #6c4675;
-  width: 150px;
+  width: 170px;
   border-radius: 4px;
   opacity: 1;
   font-family: Inter;
   font-style: normal;
+  font-size: 20px;
   cursor: pointer;
   margin-top:30px;
   box-sizing: border-box;
@@ -94,7 +95,7 @@ textarea[name="user-input"]{
 }
 
 footer{
-  margin: 0 auto 20px auto;
+  margin: 20px auto 20px auto;
   display: flex;
   justify-content: center;
   font-family: "Inter";
