@@ -11,20 +11,21 @@
   <body>
     <header>
       <h1>Analizador de texto</h1>
+    </header>
+    <main>
       <ul>
-        <li class="character-count" data-testid="character-count">Caracteres: </li>
-        <li class="character-no-spaces" data-testid="character-no-spaces-count">Caracteres Sin Espacios: </li>
-        <li class="word-count" data-testid="word-count">Palabras: </li>
-        <li class="number-count" data-testid="number-count">Números: </li>
-        <li class="number-sum" data-testid="number-sum">Suma números: </li>
-        <li class="word-length-average" data-testid="word-length-average">Promedio longitud: </li>
+        <li class="character" data-testid="character-count">Caracteres: </li>
+        <li class="character" data-testid="character-no-spaces-count">Caracteres Sin Espacios: </li>
+        <li class="character" data-testid="word-count">Palabras: </li>
+        <li class="character" data-testid="number-count">Números: </li>
+        <li class="character" data-testid="number-sum">Suma números: </li>
+        <li class="character" data-testid="word-length-average">Promedio longitud: </li>
       </ul>
       <div>
-        <textarea name="user-input" rows="5" cols="50"></textarea>
+        <textarea name="user-input" rows="30" cols="100" placeholder="Ingresa tu texto..."></textarea>
         <button id="reset-button" type="reset">Limpiar métricas</button>
       </div>
-    </header>
-    <main></main>
+    </main>
     <footer>
       <p>&copy;2024 Franchesca Zelaya</p>
     </footer>
