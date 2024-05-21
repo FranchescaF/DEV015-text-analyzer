@@ -6,10 +6,10 @@
 - [2. Introducción a la aplicación](#2-introducción-a-la-aplicación)
 - [3. Resumen del proyecto](#3-resumen-del-proyecto)
 - [4. Funcionalidades](#4-funcionalidades)
-- [5. Boilerplate](#5-boilerplate)
-- [6. Criterios de aceptación mínimos del proyecto](#6-criterios-de-aceptación-mínimos-del-proyecto)
-- [7. Pruebas](#7-pruebas)
-- [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
+- [5. Decisiones de diseño del proyecto](#5-Decisiones-de-diseño-del-proyecto)
+  - [5.1. Sprint 1](#5.1-Sprint-1)
+  - [5.2. Sprint 2](#5.2-Sprint-2)
+- [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ---
 
@@ -43,62 +43,48 @@ pueda analizar un texto en el navegador mostrando una serie de indicadores y mé
 
 ## 4. Funcionalidades
 
-El listado de funcionalidades es el siguiente:
+El listado de funcionalidades del Analizador de texto es el siguiente:
 
-1.  La aplicación debe permitir a la usuaria ingresar un texto escribiéndolo
+1.  La aplicación debe permite a la usuaria ingresar un texto escribiéndolo
     en un cuadro de texto.
 
-2.  La aplicación debe calcular las siguientes métricas y actualizar el
+2.  La aplicación debe calcula las siguientes métricas y actualiza el
     resultado en tiempo real a medida que la usuaria escribe su texto:
 
-        - **Recuento de palabras**: la aplicación debe poder contar el número de
-        palabras en el texto de entrada y mostrar este recuento a la usuaria
-        - **Recuento de caracteres**: la aplicación debe poder contar el número de
-        caracteres en el texto de entrada, incluidos espacios y signos de
-        puntuación, y mostrar este recuento a la usuaria.
-        - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
-        la aplicación debe poder contar el número de caracteres en el texto de
-        entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
-        a la usuaria.
-        - **Recuento de números**: la aplicación debe contar cúantos números hay en
-        el texto de entrada y mostrar este recuento a la usuaria.
-        - **Suma total de números**: la aplicación debe sumar todos los números que
-        hay en el texto de entrada y mostrar el resultado a la usuaria.
-        - **Longitud media de las palabras**: la aplicación debe calcular la
-        longitud media de las palabras en el texto de entrada y mostrársela a la usuaria.
+    **Recuento de palabras**: la aplicación debe poder contar el número de
+    palabras en el texto de entrada y mostrar este recuento a la usuaria
+    **Recuento de caracteres**: la aplicación debe poder contar el número de caracteres en el texto de entrada, incluidos espacios y signos de
+    puntuación, y mostrar este recuento a la usuaria.
+    **Recuento de caracteres excluyendo espacios y signos de puntuación**:
+    la aplicación debe poder contar el número de caracteres en el texto de
+    entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento a la usuaria.
+    **Recuento de números**: la aplicación debe contar cúantos números hay en el texto de entrada y mostrar este recuento a la usuaria.
+    **Suma total de números**: la aplicación debe sumar todos los números que hay en el texto de entrada y mostrar el resultado a la usuaria.
+    **Longitud media de las palabras**: la aplicación debe calcular la
+    longitud media de las palabras en el texto de entrada y mostrársela a la usuaria.
 
-3.  La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
+3.  La aplicación debe permite limpiar el contenido de la caja de texto haciendo
     clic en un botón.
 
 ![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
 ## 5. Decisiones de diseño del proyecto
 
-La lógica del proyecto esta implementada completamente en JavaScript. En
-este proyecto NO uso librerías o frameworks, solo JavaScript
-puro también conocido como Vanilla JavaScript.
+### 5.1 Sprint 1
 
-Para comenzar este proyecto se hizo un _fork_ y _clonar_ este
-repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
-es la estructura básica de un proyecto que sirve como un punto de partida con
-archivos y configuración inicial de dependencias y tests.
+**Objetivos**
 
-El boilerplate que se clono del github de Laboratoria contiene esta estructura:
+- [x] Bosquejar el prototipo en Figma
+- [x] Realizar la estructura del HTML
+- [x] Utilizar las propiedades del modelo de caja en CSS
+- [x] Pasar la prueba de aceptación para CSS y HTMl
 
-```text
-./
-├── .babelrc
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── analyzer.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── .eslintrc
-    └── analyzer.spec.js
-```
+Durante la primera semana del proyecto me propuse a leer el README base donde explicaba que funcionalidades y que requerimientos deberia tener el Analizador de Textos, luego de ello me plantee los objetivos para este 1er Sprint.
+
+Uno de mis primeros objetivos para la 1ra semana fue terminar el esqueleto del HTMl y implementar las propiedades correspondientes en CSS.
+
+Avance con un prototipo en la plataforma [Figma](https://www.figma.com/board/CmP0TFzWP1NTEaMhSWgXO7/Prototype-of-Website-Text-Analyzer?node-id=0%3A1&t=Hd6ggzIUrT9z7qKT-1) donde diseñe como queria que quede el analizador de texto una vez terminado. Tambien bosqueje la estructura HTML dentro del prototipo.
+
+![Prototipo del Proyecto-Analizador de textos.](./Prototype%20of%20Website%20Text%20Analyzer.jpg)
+
+### 5.2 Sprint 2
