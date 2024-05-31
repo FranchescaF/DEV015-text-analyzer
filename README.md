@@ -77,7 +77,7 @@ El listado de funcionalidades del Analizador de texto es el siguiente:
 - [x] Bosquejar el prototipo en Figma
 - [x] Realizar la estructura del HTML
 - [x] Utilizar las propiedades del modelo de caja en CSS
-- [x] Pasar la prueba de aceptación para CSS y HTMl
+- [x] Pasar la prueba de aceptación para CSS y HTML
 
 Durante la primera semana del proyecto me propuse a leer el README base donde explicaba que funcionalidades y que requerimientos deberia tener el Analizador de Textos, luego de ello me plantee los objetivos para este 1er Sprint.
 
