@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analizador de textos</title>
+    <meta name="author" content="Fatima Zelaya" />
+    <meta name="keywords" content="proyecto, html, css, analizador de texto, js, java script" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Analizador de texto</h1>
+    </header>
+    <main>
+      <ul>
+        <li class="character" data-testid="word-count">Palabras: </li>
+        <li class="character" data-testid="character-count">Caracteres: </li>
+        <li class="character" data-testid="character-no-spaces-count">Caracteres Sin Espacios: </li>
+        <li class="character" data-testid="word-length-average">Promedio longitud: </li>
+        <li class="character" data-testid="number-count">Números: </li>
+        <li class="character" data-testid="number-sum">Suma números: </li>
+      </ul>
+      <div>
+        <textarea name="user-input" rows="30" cols="100" placeholder="Ingresa tu texto..."></textarea>
+        <button id="reset-button" type="reset">Limpiar métricas</button>
+      </div>
+    </main>
+    <footer>
+      <p>&copy;2024 Franchesca Zelaya</p>
+    </footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
