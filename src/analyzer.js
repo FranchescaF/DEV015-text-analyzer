@@ -40,9 +40,12 @@ const analyzer = {
     const wordCount = analyzer.getWordCount(text);
     const characterCount = analyzer.getCharacterCountExcludingSpaces(text);
     if (wordCount > 0) {
-      return characterCount / wordCount;
+      const averageLength = characterCount / wordCount;
+      // Utilizamos toFixed(2) para mostrar solo dos dígitos decimales
+      //parseFloat convertimos en decimales el string
+      return parseFloat(averageLength.toFixed(2)); 
     } else {
-      return 0;
+      return 0.00; // Si no hay palabras, retornamos "0.00"
     }
   },
 
@@ -67,7 +70,7 @@ const analyzer = {
       //usamos forEach para iterar sobre cada elemento(number) del numbers(arreglo)
       numbers.forEach((number) => {
         // Convertimos cada número a tipo `number` y lo sumamos a la variable `sum`
-        sum += parseInt(number); 
+        sum += parseFloat(number); 
       });
     }
     return sum;
