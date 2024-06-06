@@ -8,7 +8,7 @@
 - [4. Funcionalidades](#4-funcionalidades)
 - [5. Decisiones de diseño del proyecto](#5-Decisiones-de-diseño-del-proyecto)
   - [5.1. Sprint 1](#5.1-Sprint-1)
-  - [5.2. Sprint 2](#5.2-Sprint-2)
+  - [5.2. Sprint 2](#5.2-Sprint-2-y-3)
 - [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
 
 ---
