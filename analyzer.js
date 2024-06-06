@@ -15,7 +15,6 @@ const analyzer = {
   getCharacterCount: (text) => {
     //Esta función debe retornar el recuento de caracteres 
     //que se encuentran en el parámetro `text` de tipo `string`.
-    console.log(text);
     return text.length;
   },
 
@@ -42,9 +41,10 @@ const analyzer = {
     if (wordCount > 0) {
       const averageLength = characterCount / wordCount;
       // Utilizamos toFixed(2) para mostrar solo dos dígitos decimales
-      return averageLength.toFixed(2); 
+      //parseFloat convertimos en decimales el string
+      return parseFloat(averageLength.toFixed(2)); 
     } else {
-      return "0.00"; // Si no hay palabras, retornamos "0.00"
+      return 0.00; // Si no hay palabras, retornamos "0.00"
     }
   },
 
@@ -69,7 +69,7 @@ const analyzer = {
       //usamos forEach para iterar sobre cada elemento(number) del numbers(arreglo)
       numbers.forEach((number) => {
         // Convertimos cada número a tipo `number` y lo sumamos a la variable `sum`
-        sum += parseInt(number); 
+        sum += parseFloat(number); 
       });
     }
     return sum;
