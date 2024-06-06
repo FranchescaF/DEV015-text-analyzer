@@ -14,36 +14,29 @@ document.addEventListener('DOMContentLoaded', () => {
   // lo que esta despues de la flecha es lo que se ejecutara una vez se ingreso texto a TEXTAREA
   userInputTextarea.addEventListener('input', () => {
     const userInput = userInputTextarea.value;
-    console.log(userInput);
-
+    
     //getwordCountElement
     const palabras = analyzer.getWordCount(userInput);
-    console.log(palabras);
     wordCountElement.textContent= 'Palabras: ' + palabras;
 
     //getcharactercount
     const caracteres = analyzer.getCharacterCount(userInput);
-    console.log(caracteres);
     characterCountElement.textContent= 'Caracteres: ' + caracteres;
 
     //getCharacterCountExcludingSpaces
     const caracteressinespacios = analyzer.getCharacterCountExcludingSpaces(userInput);
-    console.log(caracteressinespacios);
     characterNoSpacesCountElement.textContent= 'Caracteres Sin Espacios: ' + caracteressinespacios;
     
     //getAverageWordLength
     const promediolongitud = analyzer.getAverageWordLength(userInput);
-    console.log(promediolongitud);
     wordLengthAverageElement.textContent= 'Promedio logitud: ' + promediolongitud;
 
     //getNumberCount
     const numeros = analyzer.getNumberCount(userInput);
-    console.log(numeros);
     numberCountElement.textContent= 'Números: ' + numeros;
 
     //getNumberSum
     const suma = analyzer.getNumberSum(userInput);
-    console.log(suma);
     numberSumElement.textContent= 'Suma números: ' + suma;
   });
 
