@@ -18,7 +18,7 @@
 - Este es mi primer proyecto dentro del Bootcamp de Laboratoria(mayo-2024)
 - El rango que le dedique al proyecto fue la duración estimada de los Sprints.
 
-## 2. Introducción a la aplicación
+## 2. Descripción de la página web
 
 ![Una lupa sobre texto de libro](https://github.com/Laboratoria/curriculum/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
 
@@ -26,15 +26,10 @@ _Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unspl
 _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Cuando nos referimos a un analizador de texto es una aplicación para extraer información útil de un texto utilizando diversas técnicas, como el procesamiento del lenguaje natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
-Estas aplicaciones pueden proporcionar una variedad de métricas que brindan información básica sobre la longitud y la estructura del texto como por ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de oraciones y el conteo de párrafos. Otras métricas incluyen el análisis de sentimientos, que utiliza técnicas de NLP para determinar el tono general positivo, negativo o neutral del texto, y el análisis de
-legibilidad, que utiliza algoritmos para evaluar la complejidad y la
-legibilidad del texto.
+Estas aplicaciones pueden proporcionar una variedad de métricas que brindan información básica sobre la longitud y la estructura del texto como por ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de oraciones y el conteo de párrafos. Otras métricas incluyen el análisis de sentimientos, que utiliza técnicas de NLP para determinar el tono general positivo, negativo o neutral del texto, y el análisis de legibilidad, que utiliza algoritmos para evaluar la complejidad y la legibilidad del texto.
 
-En general, las aplicaciones de análisis de texto brindan información
-valiosa y métricas sobre los textos que pueden ayudar a las usuarias a
-tomar decisiones informadas y sacar conclusiones significativas.
-Mediante el uso de estas herramientas de análisis, las usuarias pueden
-obtener una comprensión más profunda de los textos.
+En general, las aplicaciones de análisis de texto brindan información valiosa y métricas sobre los textos que pueden ayudar a las usuarias a tomar decisiones informadas y sacar conclusiones significativas.
+Mediante el uso de estas herramientas de análisis, las usuarias pueden obtener una comprensión más profunda de los textos.
 
 ## 3. Resumen del proyecto
 
@@ -87,4 +82,38 @@ Avance con un prototipo en la plataforma [Figma](https://www.figma.com/board/CmP
 
 ![Prototipo del Proyecto-Analizador de textos.](./Prototype%20of%20Website%20Text%20Analyzer.jpg)
 
-### 5.2 Sprint 2
+### 5.2 Sprint 2 y Sprint 3
+
+**Objetivos**
+
+- [x] Avanzar con las funcionalidades en el analyzer.js
+- [x] Hacer los eventos del DOM en index.js
+- [x] Avanzar con el Readme
+- [x] Pasar el test de criterios mínimos de aceptación
+
+Durante la segunda y tercera semana me centre en las funcionalidades en java script en el archivo analyzer, las cuales son 6 funcionalidades que tiene el Analizador de texto, las cuales se llaman:
+
+1. getWordCount:  Calcular el recuento de palabras de un texto.
+2. getCharacterCount: Calcular el recuento de caracteres de un texto.
+3. getCharacterCountExcludingSpaces: Calcula el recuento de caracteres excluyendo espacios y signos de puntuación de un texto.
+4. getNumbersCount: Cuenta cúantos números hay en un texto.
+5. getNumbersSum: Suma longitud media de los números en un texto.
+6. getAverageWordLength: Calcula la longitud media de las palabras en un texto.
+
+Luego de las funcionalidades a la par invoco los métodos en el archivo index.js median query selector y hago que los eventos como click y input funcionen e pueda interactuar con el usuario cuando se haga uso del cuadro de texto llamado Textarea y que surja un evento cuando se hace click en el botón limpiar métricas.
+
+## Instrucciones de Uso
+
+1. Clona el repositorio.
+2. Abre el archivo `index.html` en tu navegador para el código de la página web.
+3. Abre el archivo `analyzer` podras ver como se realizan las funcionalidades.
+4. Abre el archivo `index` podras como se declaro los eventos del DOM.
+5. Usa el inspector de código en el navegador para que puedas entender mejor la lógica del código
+
+## Acerca de la Autora
+
+Este proyecto fue desarrollado por **_Franchesca Zelaya_** como parte de un proyecto práctico como estudiante del Bootcamp de Laboratoria. Si tienes preguntas o comentarios, no dudes en ponerte en contacto al correo electrónico: fatimapolgar2001@gmail.com
+
+## Visita la web:
+
+[https://franchescaf.github.io/DEV015-text-analyzer/](https://franchescaf.github.io/DEV015-text-analyzer/)
