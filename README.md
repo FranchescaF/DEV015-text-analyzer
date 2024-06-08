@@ -116,4 +116,4 @@ Este proyecto fue desarrollado por **_Franchesca Zelaya_** como parte de un proy
 
 ## Visita la web:
 
-[https://franchescaf.github.io/DEV015-text-analyzer/](https://franchescaf.github.io/DEV015-text-analyzer/)
+[https://franchescaf.github.io/DEV015-text-analyzer/src/](https://franchescaf.github.io/DEV015-text-analyzer/src/)
